@@ -1,0 +1,26 @@
+{
+  "name": "stylehubbackend",
+  "version": "1.0.0",
+  "description": "\"# stylehubecom_backend\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Ridarafiiq/stylehubecom_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ridarafiiq/stylehubecom_backend/issues"
+  },
+  "homepage": "https://github.com/Ridarafiiq/stylehubecom_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mssql": "^10.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
