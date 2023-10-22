@@ -17,17 +17,30 @@ router.get( "/",
 
 // user: SQL_USER,
 // password: SQL_PASSWORD,
+// const sqlInfo = {
+//     sql: {
+//         server: 'localhost',
+//         database: 'ReactProducts',
+//         user:'sa',
+//         password:'root',
+//         options: {
+//             encrypt: false,
+//         },
+//     },
+// };
+
 const sqlInfo = {
-    sql: {
-        server: 'localhost',
-        database: 'ReactProducts',
-        user:'sa',
-        password:'root',
-        options: {
-            encrypt: false,
-        },
-    },
+  mysql: {
+      host: '127.0.0.1',
+      database: 'ReactProducts',
+      user: 'rida',
+      password: 'rida@123',
+  },
 };
+
+
+
+
 
 // Default Route
 
@@ -77,6 +90,6 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 
-app.listen(5000, () => {
+app.listen(5000, "0.0.0.0", () => {
   console.log("app listening on url http://localhost:5000");
 });
