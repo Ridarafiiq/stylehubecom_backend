@@ -1,2 +1,6 @@
 node_modules
+<<<<<<< HEAD
 Dockerfile
+=======
+package-lock.json
+>>>>>>> 6c725ee116781e70bd1ff6bfe0a25371b87575df
