@@ -32,7 +32,7 @@ router.get( "/",
 
 const sqlInfo = {
   mysql: {
-      host: '54.164.166.238',
+      host: '52.3.251.145',
       port: '3306',
       database: 'ReactProducts',
       user: 'rida',
